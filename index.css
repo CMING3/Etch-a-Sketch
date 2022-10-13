@@ -37,6 +37,14 @@
     height: 100%;
 }
 
+.grid-item{
+    background-color: white;
+}
+
+.grid-item:hover{
+    background-color: lightgrey;
+}
+
 @media only screen and (max-width: 700px){
     .toolbox{
         width:100vw;

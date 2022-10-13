@@ -21,7 +21,6 @@ function createPanel(){
     gridItems.forEach((item)=>{
         item.style.width=`${(100/drawPanelSize)}`;
         item.style.height=`${(100/drawPanelSize)}`;
-        item.style.backgroundColor="white"
 
         //add color function here
         item.addEventListener("mousedown", coloring)
